@@ -1,0 +1,100 @@
+@charset 'UTF-8';
+
+/* common.jsの上書き */
+#content-wrap {
+  min-height: calc(100vh - (70px + 140px));
+}
+#content {
+  width: 80vw;
+  height:100%;
+  margin: auto;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 2.4rem;
+  color: #4b5563;
+}
+
+h3 {
+  color: #374151;
+  font-size: 1.6rem;
+}
+.wrapper {
+  background: #fff;
+  box-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px 1px #0000000f;
+  padding: 1.75rem;
+  border-radius: .45rem;
+}
+label {
+  display: block;
+  color: #374151;
+  font-size: 1.6rem;
+}
+[type=text],
+[type=url] {
+  width: 100%;
+  font-size: 1.6rem;
+  margin-top: .8rem;
+  padding: .8rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+textarea {
+  width: 100%;
+  font-size: 1.6rem;
+  margin-top: .8rem;
+  padding: .8rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+select {
+  display: block;
+  width: 100%;
+  font-size: 1.6rem;
+  background: #fff;
+  margin-top: .8rem;
+  padding: .8rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+[type="submit"] {
+  /* px-4 py-3 bg-pink-600 rounded-md text-white font-medium tracking-wide hover:bg-pink-500 ml-2 */
+  background: #db2777;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 1.6rem 1.2rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+[type="submit"]:hover {
+  background: #ec4899;
+
+}
+
+/* 汎用クラス */
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: end;
+}
+.flex-col {
+  flex-direction: column;
+}
+.shrink {
+  flex-shrink: 1;
+}
+.grow {
+  flex-grow: 1;
+}
+.mr-1 {
+  margin-right: 2.4rem;
+}
+.mt-1 {
+  margin-top: 2.4rem;
+}
