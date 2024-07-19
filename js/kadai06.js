@@ -78,5 +78,3 @@ searchBtn.addEventListener("click", () => {
             });
         });
 });
-
-//もんちゃんにparking と target="_blank" 教える
